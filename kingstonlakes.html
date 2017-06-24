@@ -4,221 +4,11 @@
 <meta charset="utf-8" />
 <title>Kingston Lakes</title>
 <meta name="viewport" content="width=divice-width, initial-scale=1.0">
-<link rel="stylesheet" href="blueberry.css" />
+
 <style type="text/css">
-* {
-	margin: 0;
-	border: 0;
-	padding: 0;
-
-}
-body {
-	background: #98c68b;
-	font: 14px/20px Arial, San-Serif;
-	color:#555;
-	margin: 0;
-}
-h1 {
-	text-align: center;
-	font-size: 180%;
-	line-height: 120%;
-	padding: 5% 0;
-}
-h2 {
-	text-decoration: underline;
-	line-height: 280%;
-	padding-left: 2%;
-}
-h3 {
-	line-height: 110%;
-	padding: 5% 0;
-}
-p {
-	padding: 1%;
-}
-img {
-	text-align: center;
-}
-a {
-	color: #FFF;
-	text-decoration: none;
-	font-weight: bold;
-}
-a:hover {
-	color: #FFF;
-	text-decoration: underline;
-}
-header {
-	background: #28401c;
-	width: 100%;
-	height: 86px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	opacity: 0.90%;
-}
-#logo {
-	margin: 20px;
-	float: left;
-	width: 230px;
-	height: 110px;
-	background: url(img/logokl.png) no-repeat center;
-}
-nav {
-	float: right;
-	padding: 35px 20px 20px 0;
-}
-#menu-icon {
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: url(img/icon.png) center;;
-}
-a:hover#menu-icon {
-	border-radius: 4px 4px 0 0;
-}
-ul {
-	list-style: none;
-}
-nav ul li {
-	display: inline-block;
-	float: left;
-	padding: 10px;
-}
-.current {
-	color: #FFF;
-	text-decoration: underline;
-}
-#doc {
-	margin: 40px 0;
-}
-#content {
-	margin: 0 auto;
-	max-width: 1140px;
-	margin-top: 110px;
-
-}
-.blueberry {
-	max-width: 960px;
-	margin-top: 110px;
-}
-section {
-	width: 29%;
-	float: left;
-	margin: 2% 2%;
-	text-align: center;
-
-}
-.clear {
-	clear: both;
-}
-article {
-	float: left;
-	margin: 0 auto;
-	width: 50%;
-	height: auto;
-	padding: 4%;
-}
-aside {
-	float: right;
-	margin: 0 auto;
-	width: 35%;
-	height: auto;
-	padding: 3%;
-}
-ul.gym li {
-	padding-left: 3%;
-}
-footer {
-	background: #333333;
-	width: 100%;
-	overflow: hidden;
-	opacity: 0.90;
-}
-footer p, footer h3 {
-	color: #FFF;
-}
-footer p a {
-	color: #FFF;
-	text-decoration: none;
-}
-ul.social li {
-	display: inline;
-}
-ul.social li img {
-	height: 90px;
-}
-footer.second {
-	border-top: 1px solid #333333;
-	background-color: #333333;
-	max-height: 50px;
-	text-align: center;
-	opacity: 0.95;
-}
-/*-----------------------MEDIA!!!!!-------------------------*/
-@media screen and (max-width: 478px) {
-	body {
-		position: absolute;
-	}
-}
-@media screen and (max-width: 740px) {
-	header {
-		position: absolute;
-	}
-	#menu-icon {
-		display: inline-block;
-	}
-	nav ul, nav:active ul {
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #28401c;
-		border: 1px solid #FFF;
-		right: 20px;
-		top: 60px;
-		width: 50%;
-		border-radius: 2px 0 2px 2px;
-	}
-	nav li {
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-	}
-	nav:hover ul {
-		display: block;
-	}
-	section {
-		float: left;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	article {
-		float: left;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	aside {
-		float: left;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-}
 
 </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script src="jquery.blueberry.js"></script>
-<script>
-$(window).load(function() {
-	$('.blueberry').blueberry();
 
-});
-
-</script>
 </head>
 <body>
 	<header>
@@ -230,6 +20,7 @@ $(window).load(function() {
 				<li><a href="#">Floorplans</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Amentities</a></li>
+				<li><a href="#">Gallery</a></li>
 				<li><a href="#">Reviews</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
@@ -240,85 +31,34 @@ $(window).load(function() {
 		<div id="content">
 			<div class="blueberry">
 				<ul class="slides">
-				<li><img src="img/frontoffice.jpg" width="1150" height="570" />
-				<li><img src="img/kl001.jpg" width="1150" height="570" />
-				<li><img src="img/kl005.jpg" width="1150" height="570" />
-				<li><img src="img/kl004.jpg" width="1150" height="570" />
+				<li><img src="https://photos.google.com/album/AF1QipPlw9a_CkHgZgyjj_Kb3wrMExQ1tHrnTQm1aeRz/photo/AF1QipPcWfahRRXh-Zo_wsUcWAGARw-U8d0usqC0ZwJ8" width="750" height="570" />
+				<li><img src="https://goo.gl/photos/zwcN4s2r3Tv5zj4U7" width="750" height="570" />
+				<li><img src="https://photos.google.com/album/AF1QipPlw9a_CkHgZgyjj_Kb3wrMExQ1tHrnTQm1aeRz/photo/AF1QipMPnMEJU414NrEHZKqRnu72JmKhMoh76jbleyKH" width="750" height="570" />
+				<li><img src="https://photos.google.com/album/AF1QipPlw9a_CkHgZgyjj_Kb3wrMExQ1tHrnTQm1aeRz/photo/AF1QipMDzmZTPcjZAp1b31FefKvh0Gzdx1ZH7WJVQ_Rq" width="750" height="570" />
 				</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<section>
-	<img src="img/logohome.png" width="200" height="200" /">
+	<img src="https://photos.google.com/album/AF1QipPlw9a_CkHgZgyjj_Kb3wrMExQ1tHrnTQm1aeRz/photo/AF1QipPQPpCpDi1hESeH8sKIGFDu5d1GIHiMRX8gkzKe" />
 	<h1>Welcome to Kingston Lakes!</h1>
 	<p>This is dummy text, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula posuere mollis. Sed a lacus arcu. Phasellus tempus vel sem quis placerat. Ut vehicula lacus magna, vitae vestibulum dui elementum a.</p>
 	</section>
 	<section>
-	<img src="img/ccheck.png" width="200" height="200" />
+	<img src="https://photos.google.com/album/AF1QipPlw9a_CkHgZgyjj_Kb3wrMExQ1tHrnTQm1aeRz/photo/AF1QipOJ45hFZiEMvysoAgmXxl_7vaNu4Yb4aoo7xef9" width="100" height="100" />
 	<h1>Credit Checks for Pre-Approval!</h1>
 	<p>This is dummy text, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula posuere mollis. Sed a lacus arcu. Phasellus tempus vel sem quis placerat. Ut vehicula lacus magna, vitae vestibulum dui elementum a.</p>
 	</section>
 	<section>
-	<img src="img/location.png" width="200" height="200" />
+	<img src="C:\Users\Ashley\Desktop\Portfolio\location.png" width="100" height="100" />
 	<h1>Located Near Shopping Malls!</h1>
 	<p>This is dummy text, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula posuere mollis. Sed a lacus arcu. Phasellus tempus vel sem quis placerat. Ut vehicula lacus magna, vitae vestibulum dui elementum a. </p>
 	</section>
 	<div class="clear"></div>
 	<article>
-	<img src="img/kl003.jpg" width="550" height="350" />
+
 	</article>
-	<aside>
-	<h2>Office Hours:</h2>
-	<ul class="showings">
-	<li><h3>Monday - Friday: 8am-4pm</h3></li>
-	<li><h3>Saturday- 10am-6pm</h3></li>
-	<li><h3>Sunday- Closed</h3></li>
-	<p>*During Holidays Hours May Change, Please Call the Front Office at Number Provided Below.*</p>
-	</ul>
-	</aside>
-	<div class="clear"></div>
-	<section>
-	<img src="img/kl006.jpg" width="500" height="400" />
-	<h1>Apartment Layout</h1>
-	<p>This is dummy text, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula posuere mollis. Sed a lacus arcu. Phasellus tempus vel sem quis placerat. Ut vehicula lacus magna, vitae vestibulum dui elementum a. </p>
-	</section>
-	<section>
-	<img src="img/gymkl.jpg" width="500" height="400" />
-	<h1>Our Gym Facility</h1>
-	<p>This is dummy text, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula posuere mollis. Sed a lacus arcu. Phasellus tempus vel sem quis placerat. Ut vehicula lacus magna, vitae vestibulum dui elementum a. </p>
-	</section>
-
-<section>
-	<img src="img/swimmingkl.jpg" width="500" height="400" />
-	<h1>Luxury Swimming Pool</h1>
-	<p>This is dummy text, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula posuere mollis. Sed a lacus arcu. Phasellus tempus vel sem quis placerat. Ut vehicula lacus magna, vitae vestibulum dui elementum a. </p>
-	</section>
-	<footer>
-		<section>
-			<h3><b>Kingston Lakes</b></h3>
-			<p><b> 000/000-000</b><br><br>
-			25244 KingLake Dr.<br>
-			Houston, Tx 77070<br>
-			kingstonlakes@admin.com</p>
-		</section>
-		<section>
-			<h3>Connect With Us!</h3>
-			<ul class="social">
-				<li><a href="#"><img src="img/fb.png" width="100" height="100" /></a></li>
-				<li><a href="#"><img src="img/twitter.png" width="100" height="100" /></a></li>
-				<li><a href="#"><img src="img/googleplus.png" width="100" height="100" /></a></li>
-			</ul>
-		</section>
-		<section>
-			<img src="img/kinglakeslogo.png" width="230" height="100" />
-		</section>
-
-	</footer>
-	<footer class="second">
-		<p> ©Copyright - Kingston Lakes, 2012</p>
-	</footer>
-
 
 </body>
 </html>
